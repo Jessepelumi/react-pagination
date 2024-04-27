@@ -32,7 +32,7 @@ const createFontFaces = (family, style = "normal") => {
 const spaceGroteskNormal = createFontFaces(spaceGrotesk);
 
 const Fonts = css`
-  ${spaceGroteskNormal}
+  ${spaceGroteskNormal};
 `;
 
 export default Fonts;
